@@ -1,3 +1,4 @@
+/.idea
 libs/
 node_modules/
 .DS_Store
@@ -5,17 +6,6 @@ node_modules/
 .project
 .svn
 npm-debug.log
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/dictionaries
-.idea/dataSources.ids
-.idea/dataSources.xml
-.idea/sqlDataSources.xml
-.idea/dynamic.xml
-.idea/uiDesigner.xml
-*.ipr
-*.iws
-.idea/mongoSettings.xml
 
 # bem
 .bem/cache/
