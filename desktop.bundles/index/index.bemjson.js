@@ -42,6 +42,51 @@ module.exports = {
                     mix: {block: 'start-screen', elem: 'link'}
                 }
             ]
+        },
+        {
+            block: 'navbar',
+            content: [
+                {
+                    block: 'logo',
+                    mods: {size: 'small'},
+                },
+                {
+                    block: 'nav-links',
+                    mix: {block: 'navbar', elem: 'links'},
+                    content: [
+                        {
+                            block: 'link',
+                            content: 'Home',
+                            url: '#',
+                            mix: {block: 'nav-links', elem: 'link'},
+                        },
+                        {
+                            block: 'link',
+                            content: 'About us',
+                            url: '#',
+                            mix: {block: 'nav-links', elem: 'link'},
+                        },
+                        {
+                            block: 'link',
+                            content: 'Portfolio',
+                            url: '#',
+                            mix: {block: 'nav-links', elem: 'link'},
+                        },
+                        {
+                            block: 'link',
+                            content: 'Clients',
+                            url: '#',
+                            mix: {block: 'nav-links', elem: 'link'},
+                        },
+                        {
+                            block: 'link',
+                            content: 'Contact',
+                            url: '#',
+                            mix: {block: 'nav-links', elem: 'link'},
+                        },
+                    ],
+                },
+            ]
         }
     ]
 };
